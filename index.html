@@ -3,25 +3,79 @@
 
 <head>
     <title>ZTM</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #first {
+            color: aqua;
+            background-color: violet;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+
+        }
+
+        #second {
+            color: cyan;
+            background-color: violet;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+
+        p {
+            color: cornflowerblue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            border-style: solid;
+            border-color: orange;
+            border-width: 2px;
+            border-radius: 4px;
+            padding: 10px;
+
+
+        }
+
+        body {
+            background-image: url(css.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>自我展示</h1>
+    <h1 id="first">自我展示</h1><br>
+    <button type="button" class="btn btn-primary">目录</button>
+    <a href="zp.html" target="_blank"><button type="button" class="btn btn-secondary">照片</button></a>
+    <a href="js.html" target="_blank"><button type="button" class="btn btn-success">宠物</button></a><br>
+
+
+
 
     <ul>
         <li>张泰铭</li>
         <li>男</li>
         <li>中国</li>
     </ul>
-    <h1>爱好</h1>
+    <h1 id="second">爱好</h1>
 
     <p>
         喜欢旅游喜欢去海边<br>
-        <a href="seaside.html" target="_blank"><img src="sea6.jpg" width="300px"></a><br>
+        <a href="seaside.html" target="_blank"><button type="button" class="btn btn-success">Click</button></a><br>
 
-
+        <img src="sea6.jpg" width="300px"><br>
+    </p>
+    <p>
         品尝美食<br>
-        <a href="food.html" target="_blank"><img src="food.jpg" width="300px"></a>
+        <a href="food.html" target="_blank"><button type="button" class="btn btn-success">Click</button></a><br>
+
+        <img src="food.jpg" width="300px"><br>
+    </p>
+    <p>
+        喜欢打游戏<br>
+        <img src="yjwj.jpg" width="300px"><img src="R.jpg" width="300px">
 
     </p>
 
